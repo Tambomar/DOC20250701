@@ -75,12 +75,12 @@
 </div>
 
 <!-- PDF.js -->
-<script src="pdfjs/pdf.mjs"></script>
+<script src="pdfjs/pdf.js"></script>
 <script>
   const url = 'DOC20250701.pdf';
 
   const pdfjsLib = window['pdfjs-dist/build/pdf'];
-  pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/pdf.worker.mjs';
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/pdf.worker.js';
 
   let pdfDoc = null,
       pageNum = 1,
